@@ -7,8 +7,9 @@
     "nivel": "Iniciante ao avançado",
     "preco_pix": 197,
     "parcelas": 12,
-    "valor_parcela": 19.70,
-    "acesso": "Vitalício via Google Drive"
+    "valor_parcela": 19.7,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": ""
   },
   {
     "id": "dropshipping",
@@ -18,8 +19,9 @@
     "nivel": "Iniciante",
     "preco_pix": 147,
     "parcelas": 10,
-    "valor_parcela": 17.40,
-    "acesso": "Vitalício via Google Drive"
+    "valor_parcela": 17.4,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": ""
   },
   {
     "id": "edicao-video",
@@ -29,7 +31,8 @@
     "nivel": "Iniciante ao intermediário",
     "preco_pix": 127,
     "parcelas": 10,
-    "valor_parcela": 15.00,
-    "acesso": "Vitalício via Google Drive"
+    "valor_parcela": 15.0,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": ""
   }
 ]
