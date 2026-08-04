@@ -21,24 +21,202 @@
   },
   {
     "id": "edicao-video",
-    "categoria": "Edição de Vídeo",
-    "nome": "Edição de Vídeo para Redes Sociais",
-    "descricao": "Premiere, CapCut, cortes dinâmicos e motion básico para conteúdo de redes sociais.",
-    "nivel": "Iniciante ao intermediário",
-    "preco": 127,
+    "categoria": "Fotografia",
+    "nome": "Poder da Luz",
+    "descricao": "Descubra como o Poder da Luz vai transformar a tua fotografia. Aprenda a usar o flash, a luz natural e o led nos seus ensaios com um método que funciona para aplicar nos seus trabalhos. Situações reais de uso, ensaios práticos comentados, aulas direto ao ponto para aprender rápido e já aplicar nas tuas fotos.",
+    "preco": 60,
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
-    "autor": "Equipe Inside Digital"
+    "autor": "Lucas Cavalheiro"
   },
   {
     "id": "edicao-video",
-    "categoria": "Edição de Vídeo",
-    "nome": "Edição de Vídeo para Redes Sociais",
-    "descricao": "Premiere, CapCut, cortes dinâmicos e motion básico para conteúdo de redes sociais.",
-    "nivel": "Iniciante ao intermediário",
-    "preco": 127,
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
-    "autor": "Equipe Inside Digital"
-  }
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Sexualidade / Desenvolvimento Pessoal",
+    "nome": "Homem Bom de Cama 2.0",
+    "descricao": "Descubra o Método Bom de Cama 2.0, um curso totalmente abrangente criado e administrado pela incrível Amanda Souza!  Este curso é ideal para quem deseja aprimorar suas habilidades e se tornar um verdadeiro expert na arte da sedução.",
+    "preco": 35,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Amanda Sousa"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Marketing Digital / Estratégias de Vendas",
+    "nome": "Neurovendas 2026",
+    "descricao": "O Neurovendas é um treinamento completo pra quem quer vender com estratégia, autoridade e confiança. São mais de 160 aulas divididas em 17 módulos que unem vendas, neurociência, PNL e comunicação prática, pra você aprender a conduzir o cliente do interesse ao fechamento com mais clareza e resultado. Aqui você aprende a entender o comportamento do consumidor, a se posicionar com segurança e a aplicar técnicas que funcionam no dia a dia de quem vive de vendas. Um curso completo, inteligente e transformador — feito pra quem quer parar de depender da sorte e começar a dominar as vendas de verdade.",
+    "preco": 70,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Carol Iasmin"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Criação de Conteúdo / Redes Sociais",
+    "nome": "Criatividade Explosiva",
+    "descricao": "Vou te mostrar como ter ideias e mais criatividade para fazer vídeos cada vez mais criativos para viralizar em suas redes sociais e atrair a atenção do seu público alvo.",
+    "preco": 40,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Bruno Lucialdo"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Mercado Imobiliário / Leilão de Imóveis",
+    "nome": "Lance Certo 3.0",
+    "descricao": "O único curso completo e acessível de leilão de imóveis que você encontrará. O curso Lance Certo é para você que quer encontrar oportunidades únicas e lucrativas nos maiores leilões do Brasil com descontos que podem chegar até 94%. Você aprenderá como fazer uma análise perfeita e ter a certeza de que está fazendo um bom negócio com lucros altos. Investir em imóveis de leilão é a maior oportunidade do mercado, alto potencial de lucro, baixa barreira de entrada e podendo trabalhar com dinheiro do banco.",
+    "preco": 27,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcel Solimeo"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Mercado Imobiliário / Vendas",
+    "nome": "Método FI (Financiamento Inteligente)",
+    "descricao": "O único conteúdo do mercado que te leva do zero à venda da sua primeira casa em menos de 18 meses. Descubra como construir a sua primeira casa para venda em 2026 e conquistar a sua independência financeira - sem depender de uma única fonte de renda.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rafael Wainer"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Youtube / Criação de Conteúdo",
+    "nome": "Viver de Youtube",
+    "descricao": "Domine as técnicas para criar, popular e monetizar seu canal e aprenda agora mesmo como ser Youtuber! Este é um curso completo de como construir, nutrir, popular e converter seu canal do Youtube. Ele é perfeito para todos os níveis de profissionais, tanto os que estão começando agora quanto os que querem aperfeiçoar seus aprendizados.",
+    "preco": 50,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Peter Jordan (Ei Nerd)"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Nexus",
+    "descricao": "Amplie sua criatividade, crie de forma estratégica, profunda e eleve o nível das suas entregas com o auxílio de IA’s. Ideias mais rápidas, processos mais fluidos, criatividade sem limites. Redefina a maneira como enxerga e pratica design com o Nexus.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Marcelo Kimura"
+  },
 ]
