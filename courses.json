@@ -11,14 +11,13 @@
   },
   {
     "id": "dropshipping",
-    "categoria": "Dropshipping",
-    "nome": "Dropshipping na Prática",
-    "descricao": "Escolha de produto vencedor, criação de loja, fornecedores e estruturação de anúncios.",
-    "nivel": "Iniciante",
-    "preco": 147,
+    "categoria": "Design / Inteligência Artificial",
+    "nome": "Motion + Machine",
+    "descricao": "O Motion + Machine é o curso avançado pra quem quer dominar a criação de peças em Morphic Motion Art, um novo estilo de animação que une design, narrativa e transformação visual constante. Você vai descobrir como dirigir inteligências artificiais como MidJourney, Runway, Veo3, Sora e ChatGPT para ampliar sua visão artística e criar projetos autorais de alto nível. São mais de 30 aulas em 09 módulos principais + 02 módulos bônus que combinam motion clássico, processos generativos, exercícios de nível profissional e crítica estética. Tudo dentro de um fluxo de trabalho híbrido e profissional, que já está moldando a nova era do Motion Design.",
+    "preco": 60,
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
-    "autor": "Equipe Inside Digital"
+    "autor": "Layer Lemonade"
   },
   {
     "id": "edicao-video",
