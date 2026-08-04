@@ -1,0 +1,35 @@
+[
+  {
+    "id": "trafego-pago",
+    "categoria": "Tráfego Pago",
+    "nome": "Tráfego Pago do Zero ao Avançado",
+    "descricao": "Facebook Ads, Google Ads, estruturação de campanhas, métricas e otimização de resultado.",
+    "nivel": "Iniciante ao avançado",
+    "preco_pix": 197,
+    "parcelas": 12,
+    "valor_parcela": 19.70,
+    "acesso": "Vitalício via Google Drive"
+  },
+  {
+    "id": "dropshipping",
+    "categoria": "Dropshipping",
+    "nome": "Dropshipping na Prática",
+    "descricao": "Escolha de produto vencedor, criação de loja, fornecedores e estruturação de anúncios.",
+    "nivel": "Iniciante",
+    "preco_pix": 147,
+    "parcelas": 10,
+    "valor_parcela": 17.40,
+    "acesso": "Vitalício via Google Drive"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Edição de Vídeo",
+    "nome": "Edição de Vídeo para Redes Sociais",
+    "descricao": "Premiere, CapCut, cortes dinâmicos e motion básico para conteúdo de redes sociais.",
+    "nivel": "Iniciante ao intermediário",
+    "preco_pix": 127,
+    "parcelas": 10,
+    "valor_parcela": 15.00,
+    "acesso": "Vitalício via Google Drive"
+  }
+]
