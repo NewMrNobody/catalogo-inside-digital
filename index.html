@@ -449,7 +449,8 @@
     }
   });
 
-  fetch('courses.json')
+  // O "?t=" evita que o navegador use uma versão antiga salva em cache
+  fetch('courses.json?t=' + Date.now())
     .then(r => r.json())
     .then(data => {
       courses = data;
