@@ -1,10 +1,11 @@
 [
   {
     "id": "trafego-pago",
-    "categoria": "Design / Inteligência Artificial",
-    "nome": "Motion + Machine",
-    "descricao": "O Motion + Machine é o curso avançado pra quem quer dominar a criação de peças em Morphic Motion Art, um novo estilo de animação que une design, narrativa e transformação visual constante. Você vai descobrir como dirigir inteligências artificiais como MidJourney, Runway, Veo3, Sora e ChatGPT para ampliar sua visão artística e criar projetos autorais de alto nível. São mais de 30 aulas em 09 módulos principais + 02 módulos bônus que combinam motion clássico, processos generativos, exercícios de nível profissional e crítica estética. Tudo dentro de um fluxo de trabalho híbrido e profissional, que já está moldando a nova era do Motion Design.",
-    "preco": 60,
+    "categoria": "Tráfego Pago",
+    "nome": "Tráfego Pago do Zero ao Avançado",
+    "descricao": "Facebook Ads, Google Ads, estruturação de campanhas, métricas e otimização de resultado.",
+    "nivel": "Iniciante ao avançado",
+    "preco": 197,
     "acesso": "Vitalício via Google Drive",
     "imagem": ""
   },
@@ -14,9 +15,7 @@
     "nome": "Dropshipping na Prática",
     "descricao": "Escolha de produto vencedor, criação de loja, fornecedores e estruturação de anúncios.",
     "nivel": "Iniciante",
-    "preco_pix": 147,
-    "parcelas": 10,
-    "valor_parcela": 17.4,
+    "preco": 147,
     "acesso": "Vitalício via Google Drive",
     "imagem": ""
   },
@@ -26,9 +25,7 @@
     "nome": "Edição de Vídeo para Redes Sociais",
     "descricao": "Premiere, CapCut, cortes dinâmicos e motion básico para conteúdo de redes sociais.",
     "nivel": "Iniciante ao intermediário",
-    "preco_pix": 127,
-    "parcelas": 10,
-    "valor_parcela": 15.0,
+    "preco": 127,
     "acesso": "Vitalício via Google Drive",
     "imagem": ""
   }
