@@ -29,5 +29,16 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Equipe Inside Digital"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Edição de Vídeo",
+    "nome": "Edição de Vídeo para Redes Sociais",
+    "descricao": "Premiere, CapCut, cortes dinâmicos e motion básico para conteúdo de redes sociais.",
+    "nivel": "Iniciante ao intermediário",
+    "preco": 127,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Equipe Inside Digital"
   }
 ]
