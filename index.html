@@ -173,10 +173,9 @@
     background: var(--surface);
     border: 1px solid var(--hairline);
     border-radius: 16px;
-    padding: 22px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 12px;
     animation: rise 0.35s ease both;
   }
 
@@ -186,6 +185,43 @@
   }
 
   .card:hover { background: var(--surface-hover); border-color: #333b48; }
+
+  .card-image-wrap {
+    aspect-ratio: 16 / 9;
+    background: var(--surface-hover);
+    overflow: hidden;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-image-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: linear-gradient(135deg, rgba(139,127,255,0.14), rgba(240,180,41,0.10));
+  }
+
+  .card-body {
+    padding: 20px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
 
   .card-category {
     font-family: 'IBM Plex Mono', monospace;
@@ -353,19 +389,34 @@
     filtered.forEach(c => {
       const card = document.createElement('div');
       card.className = 'card';
+
+      const imageHtml = c.imagem
+        ? `<img class="card-image" src="${c.imagem}" data-categoria="${c.categoria}" alt="${c.nome}" loading="lazy" onerror="handleImgError(this)">`
+        : `<div class="card-image-fallback">${c.categoria}</div>`;
+
       card.innerHTML = `
-        <div class="card-category">${c.categoria}</div>
-        <h3>${c.nome}</h3>
-        <p>${c.descricao}</p>
-        <div class="card-meta">${c.nivel} · ${c.acesso}</div>
-        <div class="price-row">
-          <span class="price">R$ ${formatBRL(c.preco_pix)}</span>
-          <span class="price-installments">ou ${c.parcelas}x de R$ ${formatBRL(c.valor_parcela)}</span>
+        <div class="card-image-wrap">${imageHtml}</div>
+        <div class="card-body">
+          <div class="card-category">${c.categoria}</div>
+          <h3>${c.nome}</h3>
+          <p>${c.descricao}</p>
+          <div class="card-meta">${c.nivel} · ${c.acesso}</div>
+          <div class="price-row">
+            <span class="price">R$ ${formatBRL(c.preco_pix)}</span>
+            <span class="price-installments">ou ${c.parcelas}x de R$ ${formatBRL(c.valor_parcela)}</span>
+          </div>
+          <a class="cta" href="${telegramLink(c)}" target="_blank" rel="noopener">Falar no Telegram →</a>
         </div>
-        <a class="cta" href="${telegramLink(c)}" target="_blank" rel="noopener">Falar no Telegram →</a>
       `;
       grid.appendChild(card);
     });
+  }
+
+  function handleImgError(img) {
+    const fallback = document.createElement('div');
+    fallback.className = 'card-image-fallback';
+    fallback.textContent = img.dataset.categoria;
+    img.replaceWith(fallback);
   }
 
   function renderChips() {
