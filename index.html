@@ -254,8 +254,8 @@
 
   .price-row {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 4px;
     border-top: 1px dashed var(--hairline);
     padding-top: 12px;
     margin-top: 4px;
@@ -263,16 +263,15 @@
 
   .price {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--gold);
   }
 
-  .price-installments {
+  .price-note {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11.5px;
     color: var(--text-muted);
-    text-align: right;
   }
 
   .cta {
@@ -361,7 +360,8 @@
   let activeCategory = 'Todos';
 
   function formatBRL(n) {
-    return n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const num = Number(n) || 0;
+    return num.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   }
 
   function telegramLink(course) {
@@ -387,28 +387,35 @@
     emptyEl.style.display = filtered.length === 0 ? 'block' : 'none';
 
     filtered.forEach(c => {
-      const card = document.createElement('div');
-      card.className = 'card';
+      try {
+        const card = document.createElement('div');
+        card.className = 'card';
 
-      const imageHtml = c.imagem
-        ? `<img class="card-image" src="${c.imagem}" data-categoria="${c.categoria}" alt="${c.nome}" loading="lazy" onerror="handleImgError(this)">`
-        : `<div class="card-image-fallback">${c.categoria}</div>`;
+        // Aceita "preco" (padrão) ou "preco_pix" (compatibilidade com versões antigas)
+        const preco = c.preco ?? c.preco_pix ?? 0;
 
-      card.innerHTML = `
-        <div class="card-image-wrap">${imageHtml}</div>
-        <div class="card-body">
-          <div class="card-category">${c.categoria}</div>
-          <h3>${c.nome}</h3>
-          <p>${c.descricao}</p>
-          <div class="card-meta">${c.nivel} · ${c.acesso}</div>
-          <div class="price-row">
-            <span class="price">R$ ${formatBRL(c.preco_pix)}</span>
-            <span class="price-installments">ou ${c.parcelas}x de R$ ${formatBRL(c.valor_parcela)}</span>
+        const imageHtml = c.imagem
+          ? `<img class="card-image" src="${c.imagem}" data-categoria="${c.categoria || ''}" alt="${c.nome || ''}" loading="lazy" onerror="handleImgError(this)">`
+          : `<div class="card-image-fallback">${c.categoria || ''}</div>`;
+
+        card.innerHTML = `
+          <div class="card-image-wrap">${imageHtml}</div>
+          <div class="card-body">
+            <div class="card-category">${c.categoria || ''}</div>
+            <h3>${c.nome || 'Curso sem nome'}</h3>
+            <p>${c.descricao || ''}</p>
+            <div class="card-meta">${c.nivel || ''} ${c.nivel && c.acesso ? '·' : ''} ${c.acesso || ''}</div>
+            <div class="price-row">
+              <span class="price">R$ ${formatBRL(preco)}</span>
+              <span class="price-note">💳 Pix ou cartão parcelado</span>
+            </div>
+            <a class="cta" href="${telegramLink(c)}" target="_blank" rel="noopener">Falar no Telegram →</a>
           </div>
-          <a class="cta" href="${telegramLink(c)}" target="_blank" rel="noopener">Falar no Telegram →</a>
-        </div>
-      `;
-      grid.appendChild(card);
+        `;
+        grid.appendChild(card);
+      } catch (err) {
+        console.warn('Curso com dados inválidos, pulando:', c, err);
+      }
     });
   }
 
