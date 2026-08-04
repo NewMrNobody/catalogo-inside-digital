@@ -1,13 +1,14 @@
-{
-  "id": "motion-machine",
-  "categoria": "Design / Inteligência Artificial",
-  "nome": "Motion + Machine",
-  "descricao": "O curso avançado pra quem quer dominar a criação de peças em Morphic Motion Art, um novo estilo de animação.",
-  "nivel": "Avançado",
-  "preco": 60,
-  "acesso": "Vitalício via Google Drive",
-  "imagem": ""
-},
+[
+  {
+    "id": "motion-machine",
+    "categoria": "Design / Inteligência Artificial",
+    "nome": "Motion + Machine",
+    "descricao": "O curso avançado pra quem quer dominar a criação de peças em Morphic Motion Art, um novo estilo de animação.",
+    "nivel": "Avançado",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": ""
+  },
   {
     "id": "dropshipping",
     "categoria": "Dropshipping",
@@ -25,6 +26,16 @@
     "descricao": "Premiere, CapCut, cortes dinâmicos e motion básico para conteúdo de redes sociais.",
     "nivel": "Iniciante ao intermediário",
     "preco": 127,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": ""
+  },
+  {
+    "id": "trafego-pago",
+    "categoria": "Tráfego Pago",
+    "nome": "Tráfego Pago do Zero ao Avançado",
+    "descricao": "Facebook Ads, Google Ads, estruturação de campanhas, métricas e otimização de resultado.",
+    "nivel": "Iniciante ao avançado",
+    "preco": 197,
     "acesso": "Vitalício via Google Drive",
     "imagem": ""
   }
