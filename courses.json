@@ -308,5 +308,25 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Tales Passos"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Agência / Audiovisual",
+    "nome": "DNA Sand",
+    "descricao": "Construa sua produtora audiovisual com um método validado. O caminho para escalar seu faturamento, consolidar seu espaço no mercado audiovisual e transformar sua realidade financeira.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Égon Marzullo"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Redes Sociais / Marketing Digital",
+    "nome": "Comunicadores Magnéticos 2026",
+    "descricao": "A comunidade Comunicadores Magnéticos é um espaço para profissionais autônomos e do digital que buscam impactar e conectar-se com seu público nas redes sociais. Aqui, aprenda a criar conteúdos magnéticos que vendem e estabelecem conexões autênticas com a sua audiência.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Giullya Becker"
   }
 ]
