@@ -198,5 +198,15 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Oney Araújo"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento Pessoal / Mentalidade",
+    "nome": "(PAT) Projeto Autoconhecimento e Transformação",
+    "descricao": "O maior e mais completo programa de autoconhecimento e mudança de comportamento do Brasil, ministrado pelo Prof. Pedro Calabrez. No Projeto Autoconhecimento e Transformação, você aprenderá conhecimentos e ferramentas práticas para entender seu cérebro e mudar sua vida.",
+    "preco": 70,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Pedro Calabrez"
   }
 ]
