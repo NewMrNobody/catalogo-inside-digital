@@ -198,5 +198,15 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Pedro Calabrez"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento Pessoal / Redes Sociais",
+    "nome": "Perfil Irresistível 2.0",
+    "descricao": "Aprenda a usar sua maior ferramenta de sedução atualmente, o SEU PERFIL DO INSTAGRAM. O Instagram que você ignora hoje é a arma que outros caras usam para roubar a atenção das mulheres que você deseja.",
+    "preco": 50,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rafael Albano (Nerd Sedutor)"
   }
 ]
