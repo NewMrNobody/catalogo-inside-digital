@@ -149,16 +149,6 @@
     "imagem": "",
     "autor": "Fê Alves"
   },
-  {
-    "id": "edicao-video",
-    "categoria": "Inteligência Artificial / Design",
-    "nome": "Human Academy Pass",
-    "descricao": "Todos os cursos DA HUMAN em um único acesso.",
-    "preco": 120,
-    "acesso": "Vitalício via Google Drive",
-    "imagem": "",
-    "autor": "Human Academy"
-  },
    {
     "id": "edicao-video",
     "categoria": "Inteligência Artificial / Audiovisual",
