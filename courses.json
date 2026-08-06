@@ -153,10 +153,50 @@
     "id": "edicao-video",
     "categoria": "Inteligência Artificial / Design",
     "nome": "Human Academy Pass",
-    "descricao": " Todos os cursos DA HUMAN em um único acesso.",
+    "descricao": "Todos os cursos DA HUMAN em um único acesso.",
     "preco": 120,
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Human Academy"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Audiovisual",
+    "nome": "Projeto Colapso",
+    "descricao": "COLAPSO é o treinamento mais completo da Rabbits voltado à integração entre IA e audiovisual. Aqui, você vai aprender como criar, manipular e aprimorar imagens e vídeos com as principais inteligências artificiais do mercado, aplicando tudo na prática real de produção de conteúdo. Não é um curso básico de teoria. É o passo a passo para quem quer criar o impossível, mesmo com recursos limitados. Domine as ferramentas que estão moldando o futuro da produção audiovisual, e transforme suas ideias em imagens, animações e filmes de outro nível. Aprenda a unir foto, vídeo e IA em um só ecossistema criativo.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rabbits AI"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Automações / Gestão",
+    "nome": "Formação Mestres da Automação",
+    "descricao": "Bem-vindo à única Formação completa de Gestão de Automação do Brasil! Domine a habilidade que está transformando pessoas comuns em profissionais disputados pelo mercado, com faturamento superior a R$ 10.000 todos os meses mesmo sem experiência.",
+    "preco": 70,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Luciana Papini"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial",
+    "nome": "Mestres AI",
+    "descricao": "O Ecossistema Completo para: Criar, Automatizar, Monetizar e Escalar. Chega de cursos isolados que ficam desatualizados em 3 meses! O Mestres da IA é um ECOSSISTEMA VIVO que evolui com o mercado e as atualizações das ferramentas, sem você precisar pagar um centavo a mais por isso.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Tiago Lemos"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Redes Sociais / Marketing",
+    "nome": "O Código Viral",
+    "descricao": "O novo jeito de alcançar 1 Milhão de visualizações nos próximos 10 dias. Depois de analisar MILHARES de vídeos, decodificamos os únicos 19 códigos virais que você vai usar nos seus vídeos para viralizar na internet.",
+    "preco": 40,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Oney Araújo"
   }
 ]
