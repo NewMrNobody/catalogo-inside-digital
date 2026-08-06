@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inside Digital — Catálogo de Cursos</title>
+<meta name="description" content="Busque cursos de tráfego pago, design, IA, edição de vídeo e mais.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0c0f14;
+    --surface: #151a22;
+    --surface-hover: #1b212b;
+    --hairline: #262c36;
+    --text: #edeff2;
+    --text-muted: #8b93a3;
+    --gold: #f0b429;
+    --violet: #8b7fff;
+  }
+
+  * { box-sizing: border-box; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+
+  html, body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-image:
+      radial-gradient(circle at 15% 0%, rgba(139,127,255,0.08), transparent 40%),
+      radial-gradient(circle at 85% 15%, rgba(240,180,41,0.06), transparent 40%);
+    min-height: 100vh;
+  }
+
+  .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--violet);
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: clamp(28px, 5vw, 42px);
+    line-height: 1.1;
+    margin: 0 0 12px;
+    letter-spacing: -0.01em;
+  }
+
+  header p {
+    color: var(--text-muted);
+    font-size: 15px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  /* Search — signature element */
+  .search-shell {
+    position: relative;
+    margin: 36px auto 0;
+    max-width: 560px;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 14px;
+    padding: 16px 18px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .search-box:focus-within {
+    border-color: var(--violet);
+    box-shadow: 0 0 0 4px rgba(139,127,255,0.12);
+  }
+
+  .search-box svg { flex-shrink: 0; color: var(--text-muted); }
+
+  .search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+  }
+
+  .search-box input::placeholder { color: var(--text-muted); }
+
+  kbd {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    border: 1px solid var(--hairline);
+    border-radius: 5px;
+    padding: 3px 6px;
+    background: var(--ink);
+  }
+
+  /* Category chips */
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin: 22px 0 40px;
+  }
+
+  .chip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.02em;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .chip:hover { color: var(--text); border-color: #3a4150; }
+
+  .chip.active {
+    color: var(--ink);
+    background: var(--gold);
+    border-color: var(--gold);
+  }
+
+  /* Results */
+  .count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: rise 0.35s ease both;
+  }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .card:hover { background: var(--surface-hover); border-color: #333b48; }
+
+  .card-image-wrap {
+    aspect-ratio: 16 / 9;
+    background: var(--surface-hover);
+    overflow: hidden;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-image-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: linear-gradient(135deg, rgba(139,127,255,0.14), rgba(240,180,41,0.10));
+  }
+
+  .card-body {
+    padding: 20px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
+
+  .card-category {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--violet);
+  }
+
+  .card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .card-author {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: -6px;
+  }
+
+  .card p {
+    font-size: 13.5px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .card-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .price-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-top: 1px dashed var(--hairline);
+    padding-top: 12px;
+    margin-top: 4px;
+  }
+
+  .price-old-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .price-old {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+    text-decoration: line-through;
+    text-decoration-color: #565f6e;
+  }
+
+  .discount-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--gold);
+    background: rgba(240,180,41,0.14);
+    border-radius: 999px;
+    padding: 2px 8px;
+  }
+
+  .price {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gold);
+  }
+
+  .price-note {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    color: var(--text-muted);
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 6px;
+    background: var(--text);
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13.5px;
+    padding: 11px;
+    border-radius: 10px;
+    transition: opacity 0.15s ease;
+  }
+
+  .cta:hover { opacity: 0.85; }
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+  }
+
+  .empty p:first-child {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  footer a { color: var(--violet); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Inside Digital</div>
+      <h1>Encontre seu próximo curso</h1>
+      <p>Busque por nome, tema ou categoria. Preço e conteúdo aparecem na hora.</p>
+    </header>
+
+    <div class="search-shell">
+      <div class="search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input id="searchInput" type="text" placeholder="Buscar curso... (ex: tráfego, edição, ia)" autocomplete="off">
+        <kbd>/</kbd>
+      </div>
+    </div>
+
+    <div class="chips" id="chips"></div>
+    <div class="count" id="count"></div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" style="display:none">
+      <p>Nenhum curso encontrado</p>
+      <span>Tenta buscar por outro termo, ou fala direto com a gente no Telegram.</span>
+    </div>
+
+    <footer>
+      Não achou o que procurava? <a href="https://t.me/SEU_BOT_AQUI" target="_blank" rel="noopener">Fale com a gente no Telegram</a>
+    </footer>
+  </div>
+
+<script>
+  // Troque pelo username do seu bot (sem @)
+  const BOT_USERNAME = "SEU_BOT_AQUI";
+
+  const grid = document.getElementById('grid');
+  const chipsEl = document.getElementById('chips');
+  const countEl = document.getElementById('count');
+  const emptyEl = document.getElementById('empty');
+  const input = document.getElementById('searchInput');
+
+  let courses = [];
+  let activeCategory = 'Todos';
+
+  function formatBRL(n) {
+    const num = Number(n) || 0;
+    return num.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function telegramLink(course) {
+    const payload = encodeURIComponent(course.id);
+    return `https://t.me/${BOT_USERNAME}?start=${payload}`;
+  }
+
+  function render() {
+    const query = input.value.trim().toLowerCase();
+
+    const filtered = courses.filter(c => {
+      const matchesCategory = activeCategory === 'Todos' || c.categoria === activeCategory;
+      const haystack = `${c.nome} ${c.descricao} ${c.categoria} ${c.autor || ''}`.toLowerCase();
+      const matchesQuery = query === '' || haystack.includes(query);
+      return matchesCategory && matchesQuery;
+    });
+
+    countEl.textContent = filtered.length === courses.length
+      ? `${courses.length} cursos disponíveis`
+      : `${filtered.length} de ${courses.length} cursos`;
+
+    grid.innerHTML = '';
+    emptyEl.style.display = filtered.length === 0 ? 'block' : 'none';
+
+    filtered.forEach(c => {
+      try {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        // Aceita "preco" (padrão) ou "preco_pix" (compatibilidade com versões antigas)
+        const preco = c.preco ?? c.preco_pix ?? 0;
+
+        // Campo opcional — só aparece riscado se o curso tiver "preco_antigo"
+        let precoAntigoHtml = '';
+        if (c.preco_antigo && c.preco_antigo > preco) {
+          const desconto = Math.round((1 - preco / c.preco_antigo) * 100);
+          precoAntigoHtml = `
+            <div class="price-old-row">
+              <span class="price-old">R$ ${formatBRL(c.preco_antigo)}</span>
+              <span class="discount-badge">-${desconto}%</span>
+            </div>
+          `;
+        }
+
+        const imageHtml = c.imagem
+          ? `<img class="card-image" src="${c.imagem}" data-categoria="${c.categoria || ''}" alt="${c.nome || ''}" loading="lazy" onerror="handleImgError(this)">`
+          : `<div class="card-image-fallback">${c.categoria || ''}</div>`;
+
+        card.innerHTML = `
+          <div class="card-image-wrap">${imageHtml}</div>
+          <div class="card-body">
+            <div class="card-category">${c.categoria || ''}</div>
+            <h3>${c.nome || 'Curso sem nome'}</h3>
+            ${c.autor ? `<div class="card-author">por ${c.autor}</div>` : ''}
+            <p>${c.descricao || ''}</p>
+            <div class="card-meta">${c.nivel || ''} ${c.nivel && c.acesso ? '·' : ''} ${c.acesso || ''}</div>
+            <div class="price-row">
+              ${precoAntigoHtml}
+              <span class="price">R$ ${formatBRL(preco)}</span>
+              <span class="price-note">💳 Pix ou cartão parcelado</span>
+            </div>
+            <a class="cta" href="${telegramLink(c)}" target="_blank" rel="noopener">Falar no Telegram →</a>
+          </div>
+        `;
+        grid.appendChild(card);
+      } catch (err) {
+        console.warn('Curso com dados inválidos, pulando:', c, err);
+      }
+    });
+  }
+
+  function handleImgError(img) {
+    const fallback = document.createElement('div');
+    fallback.className = 'card-image-fallback';
+    fallback.textContent = img.dataset.categoria;
+    img.replaceWith(fallback);
+  }
+
+  function renderChips() {
+    const categorias = ['Todos', ...new Set(courses.map(c => c.categoria))];
+    chipsEl.innerHTML = '';
+    categorias.forEach(cat => {
+      const chip = document.createElement('div');
+      chip.className = 'chip' + (cat === activeCategory ? ' active' : '');
+      chip.textContent = cat;
+      chip.addEventListener('click', () => {
+        activeCategory = cat;
+        renderChips();
+        render();
+      });
+      chipsEl.appendChild(chip);
+    });
+  }
+
+  input.addEventListener('input', render);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== input) {
+      e.preventDefault();
+      input.focus();
+    }
+    if (e.key === 'Escape') {
+      input.value = '';
+      input.blur();
+      render();
+    }
+  });
+
+  // O "?t=" evita que o navegador use uma versão antiga salva em cache
+  fetch('courses.json?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      courses = data;
+      renderChips();
+      render();
+    })
+    .catch(() => {
+      grid.innerHTML = '<div class="empty"><p>Não foi possível carregar o catálogo</p></div>';
+    });
+</script>
+</body>
+</html>
