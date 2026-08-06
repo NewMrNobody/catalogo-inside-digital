@@ -208,5 +208,55 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Rafael Albano (Nerd Sedutor)"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento de Marca / Branding / Design",
+    "nome": "Clube Flag",
+    "descricao": "Sem Sinopse.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Max Silva"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Redes Sociais",
+    "nome": "Código PEV 2.0",
+    "descricao": "Copie e cole o código que obriga o Instagram a te dar 1.000 seguidores novos todo santo dia.",
+    "preco": 35,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Clara Siqueira"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Freelancer / Ganhe em Dólar",
+    "nome": "Escola Upwork",
+    "descricao": "Do Real ao Dólar: Ganhe Mais de R$10.000 por Mês Começando do Absoluto Zero na Upwork. Conheça a mesma metologia que me tirou de um perdido, para Top Rated Plus em semanas. A Escola Upwork possui diversas aulas gravadas com metodologia comprovada, organizadas em MAIS DE 65 AULAS DETALHADAS, que vão te tirar do absoluto zero e te tornar um TOP FREELANCER na Upwork.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Joarez Garcia"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Marketing Digital",
+    "nome": "Gang.Exe",
+    "descricao": "Se você busca construir um negócio que gere vendas diárias e previsíveis, sem ligações de vendas exaustivas, mensagens diretas intermináveis ou a sensação de estar ganhando menos do que poderia com seu conhecimento, esta pode ser exatamente a solução que você precisa. Estou procurando mais algumas pessoas que estejam dispostas a se juntar a mim na construção de uma marca pessoal projetada para fazer dinheiro, com sistema simples e escalável que permita alcançar pessoas certas e vendas diárias usando seu instagram.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Doug Demarco"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Youtube / Monetização",
+    "nome": "Ordem do Coelho",
+    "descricao": "As Alavancas de Atenção: um método definitivo para você viralizar, crescer e explodir seus resultados no YouTube. Tenha acesso ao método comprovado por mais de 3.400 pessoas para ter um canal lucrativo e alcançar sua liberdade financeira criando conteúdo no YouTube (sem precisar aparecer).",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Lutz Lobo"
   }
 ]
