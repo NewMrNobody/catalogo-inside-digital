@@ -258,5 +258,55 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Lutz Lobo"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Human Academy Pass",
+    "descricao": "Todos os cursos DA HUMAN em um único acesso.",
+    "preco": 120,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Human Academy"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Vibe Coding",
+    "nome": "Voss Academy 2026",
+    "descricao": "A comunidade de profissionais que dominam IA. Cursos completos, comunidade ativa, ferramentas curadas e um painel para empresas inteiras evoluírem juntas. Tudo o que você precisa para liderar com IA - em um único lugar.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rafa Voss"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Estrategista de Marcas / Marketing",
+    "nome": "Formação Estrategista de Marcas",
+    "descricao": "Torne-se um estrategista de marca desejado, ganhando mais por seus projetos. Em apenas 3 meses, torne-se um estrategista de marcas capaz de liderar projetos relevantes, aumentar seu faturamento e construir cases que abrem portas — com um método claro, direto e comprovado.",
+    "preco": 90,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Blnks Case Company"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Musculação / Fisiculturismo",
+    "nome": "Hypertrophy Academy",
+    "descricao": "Acesse a melhor plataforma de treinamento e nutrição voltado à hipertrofia para pessoas comuns, como você. Na Hypertrophy Academy você terá acesso a todo o conhecimento que melhorou o físico de centenas de pessoas (incluindo atletas).",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Samuel Meller"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Youtube Dark / Monetização",
+    "nome": "Elementar Academy 3.0",
+    "descricao": "A maior plataforma para criar e crescer canais no YouTube. Tenha acesso a tudo que você precisa para criar e crescer um canal no YouTube e transformá-lo em um negócio lucrativo. Crie vídeos de alto padrão e seja reconhecido pelo seu trabalho. Desenvolvido por quem realmente vive do YouTube.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Tales Passos"
   }
 ]
