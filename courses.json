@@ -98,5 +98,65 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Peter Jordan (Ei Nerd)"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Design / Inteligência Artificial",
+    "nome": "Ultimate Creator",
+    "descricao": "Uma nova era na criação de fotos com IA: crie imagens realistas exatamente como você imaginou. Aprenda meu método para clonar qualquer pessoa e criar imagens que nenhuma outra ferramenta é capaz de criar.",
+    "preco": 50,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Wanrley"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Leitura / Desenvolvimento Pessoal",
+    "nome": "Comunidade Quem Lê Enriquece",
+    "descricao": "Leia de 24 a 36 livros por ano, dominando o conteúdo dos livros com alto nível de foco e absorção. Conheça a metodologia, que ao lado de uma comunidade de leitores, tem transformado a leitura no nosso país.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rafael Augusto"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "High Ticket / Agência / Gestão de Tráfego",
+    "nome": "Mentoria Vendendo em Dólar (MVD)",
+    "descricao": "O Plano 50k por mês em até 6 meses. Ajudo donos de agência e gestores de tráfego a venderem para brasileiros nos EUA cobrando em dólar, sem falar inglês.",
+    "preco": 80,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Felipe Rosemberg"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Tiktok Shop",
+    "nome": "Método Beauty Sales - Destrava TikTok Shop",
+    "descricao": "Receba um pix semanal diretamente na sua conta usando essa função oculta do Tiktok. Gravando vídeos curtos de 43 segundos sem precisar de edição postando direto da sua casa.",
+    "preco": 35,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Natalia Martins"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento Pessoal / Sedução",
+    "nome": "Black do Fê Alves",
+    "descricao": "Pela primeira e única vez, cada curso, cada livro, cada material já criado, disponível em um pacote vitalício - por um preço irrepetível! Desfrute de ABSOLUTAMENTE TUDO que eu produzi nos últimos 7 anos para se tornar uma nova pessoa, incrivelmente irresistível.",
+    "preco": 60,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Fê Alves"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Human Academy Pass",
+    "descricao": " Todos os cursos DA HUMAN em um único acesso.",
+    "preco": 120,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Human Academy"
   }
 ]
