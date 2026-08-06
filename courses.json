@@ -361,5 +361,170 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Giullya Becker"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento Pessoal",
+    "nome": "Reservatório de Dopamina",
+    "descricao": "Desenvolva bons hábitos, vença vícios, aprenda a gostar de estudar, encontre motivação e descubra como viver em alta performance sem perder a saúde mental.",
+    "preco": 60,
+    "preco_antigo": 497,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Eslen Delanogare"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Sedução / Desenvolvimento Pessoal",
+    "nome": "Estilo Cachorro 3.0",
+    "descricao": "Chegou a hora de parar de ser o cara bonzinho que ninguém leva a sério… e se tornar o homem que as mulheres desejam, respeitam e não conseguem esquecer. O Estilo Cachorro 3.0 é o método que ativa sua masculinidade de verdade — pra você dominar no jogo da atração, sem forçar, sem fingir e sem ser rejeitado.",
+    "preco": 40,
+    "preco_antigo": 297,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Sedutor Afro"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Youtube Dark / Monetização",
+    "nome": "Influencer Legacy 2026",
+    "descricao": "O curso Influencer Milionário Legacy tem como objetivo ajudar pessoas a se tornarem influenciadores digitais de sucesso. A proposta do curso é ensinar estratégias eficazes para criar, promover e monetizar um canal no YouTube ou outras plataformas digitais.",
+    "preco": 40,
+    "preco_antigo": 197,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Tio San"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial ",
+    "nome": "Viver de IA",
+    "descricao": "A plataforma B2B para implementar Inteligência Artificial na sua empresa. Soluções prontas, mentorias diárias, formações práticas e cases reais para reduzir custos, aumentar receita e tirar a IA do discurso para a operação.",
+    "preco": 120,
+    "preco_antigo": 6180,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rafael Milagre & Yago Martins"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Criação de Conteúdo / Redes Sociais",
+    "nome": "Método SPE (Stories para Enriquecer)",
+    "descricao": "Transforme seus stories em seu principal canal de vendas. Transforme seguidores em compradores com stories magnéticos — e conquiste mais clientes todos os dias.",
+    "preco": 70,
+    "preco_antigo": 697,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Luana Carolina"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Redes Sociais / Marketing Digital",
+    "nome": "Comunicadores Magnéticos 2026",
+    "descricao": "A comunidade Comunicadores Magnéticos é um espaço para profissionais autônomos e do digital que buscam impactar e conectar-se com seu público nas redes sociais. Aqui, aprenda a criar conteúdos magnéticos que vendem e estabelecem conexões autênticas com a sua audiência.",
+    "preco": 60,
+    "preco_antigo": 864,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Giullya Becker"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Criação de Conteúdo / Redes Sociais",
+    "nome": "Comunidade Life Labs",
+    "descricao": "A comunidade Comunicadores Magnéticos é um espaço para profissionais autônomos e do digital que buscam impactar e conectar-se com seu público nas redes sociais. Aqui, aprenda a criar conteúdos magnéticos que vendem e estabelecem conexões autênticas com a sua audiência.",
+    "preco": 75,
+    "preco_antigo": 1049,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Lara & Mila"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Youtube Dark / Monetização",
+    "nome": "Comunidade Dotti Gold",
+    "descricao": "A maior comunidade de canal dark brasil em resultados comprovados! Aulas semanais ao vivo, networking e acesso a todos os cursos!",
+    "preco": 150,
+    "preco_antigo": 9997,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Giovanni Dotti"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento Pessoal",
+    "nome": "CIMT",
+    "descricao": "Aprenda como seus pensamentos se desdobram na realidade e assuma o controle dos seus resultados. Aprenda a usar seus pensamentos para moldar sua realidade.Com metodologia, clareza e resultados reais.",
+    "preco": 85,
+    "preco_antigo": 3000,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Mandi e Cadu"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Design",
+    "nome": "Comerciais com IA",
+    "descricao": "Aprenda a criar comerciais com IA em menos de 30 minutos. O que antes levava 8 horas suando no After Effects e custava fortunas, agora você executa no seu computador dando simples comandos à Inteligência Artificial.",
+    "preco": 40,
+    "preco_antigo": 197,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Brabo Academy"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Marketing Digital / Tráfego Pago",
+    "nome": "Mentoria Hiperfoco",
+    "descricao": "Sem Sinopse",
+    "preco": 50,
+    "preco_antigo": 297,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Allan Torquato"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Edição / Design",
+    "nome": "Formação Artista IA",
+    "descricao": "Domine as técnicas mais avançadas de inteligência artificial para criar imagens, vídeos e campanhas visuais com qualidade profissional. Este é um treinamento para designers, fotógrafos, diretores de arte, retocadores, criadores visuais e profissionais que querem usar inteligência artificial de forma avançada para criar imagens, vídeos e peças com qualidade profissional.",
+    "preco": 60,
+    "preco_antigo": 473,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Aline Freitas"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": " Inteligência Artificial / Criação de Sites",
+    "nome": "AI Designer",
+    "descricao": "Descubra como aplicar as técnicas mais avançadas do mundo de IA para criar sites com designs profissionais, sem escrever uma única linha de código do zero.",
+    "preco": 70,
+    "preco_antigo": 680,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Asimov Academy"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Medicina / Gestão",
+    "nome": "Treinamento PS Zerado",
+    "descricao": "O Treinamento PS Zerado é um curso preparatório para pronto socorro que ensina o médico recém-formado a lidar com todos os casos mais frequentes do plantão, desde o manejo completo de qualquer Paciente Grave (mesmo sem saber o diagnóstico!) e os procedimentos essenciais da Sala Vermelha até os pacientes ficha verde, que será onde a maior parte do seu tempo será investido no Plantão. Além disso, toda a rotina e dia a dia do plantão e colocada para você de maneira simples, para que você possa dominar os relacionamentos e o fluxo de atendimentos como se fosse um médico experiente.",
+    "preco": 150,
+    "preco_antigo": 15000,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Rômulo Oliveira e Ygor Minassa"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Automações / Inteligência Artificial / Vendas",
+    "nome": "AutoNext (Vibe Stack)",
+    "descricao": "Use IA Para Automatizar, Criar Produtos e Faturar. Automação com N8N + Vibe Coding com IA — aprenda a criar automações inteligentes e produtos digitais completos, do zero ao deploy em produção. Para agências, freelancers e profissionais que querem dominar IA aplicada, automação e Vibe Coding para gerar receita real.",
+    "preco": 70,
+    "preco_antigo": 1297,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Érico Renato"
   }
 ]
