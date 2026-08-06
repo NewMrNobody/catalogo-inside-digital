@@ -691,5 +691,60 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Guilherme Franklin"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Automações",
+    "nome": "Do Zero ao Multi-Agente - OpenClaw",
+    "descricao": "Tenha um time de IAs trabalhando por você 24/7. Aprenda como eu construí um time de agentes de IA que: Organizam minha rotina, Gerenciam meus projetos, Operam meus negócios. Todo o trabalho tático e operacional delegado. Você só precisa copiar e colar.",
+    "preco": 27,
+    "preco_antigo": 97,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Bruno Okamoto"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Edição / Design",
+    "nome": "FastCut",
+    "descricao": "Aprenda em poucas horas o processo completo, as ferramentas e técnicas de IA que uso para criar filmes publicitários para shoppings, cervejarias e marcas premium gastando 10x menos.",
+    "preco": 50,
+    "preco_antigo": 397,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Vino Cabral"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Produção Musical / Mixagem",
+    "nome": "Brabo na Produção 2.0",
+    "descricao": "Pare de copiar tutoriais, de criar beats genéricos ou de tentar reproduzir um estilo sem conseguir. Aprenda a Produzir Qualquer Estilo Musical Com Qualidade Profissional. Chegou a hora de finalmente produzir com liberdade, confiança e qualidade profissional. Você merece ter orgulho do que cria, esse método foi criado para te levar do ZERO até o nível profissional.",
+    "preco": 50,
+    "preco_antigo": 297,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Brabo do FL"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Marketing Digital / Inteligência Artificial",
+    "nome": "LifeStyle First",
+    "descricao": "Lifestyle First: O modelo que me gera R$1M+/mês operando sozinho, enquanto vivo nos EUA com minha família. Passo a passo para iniciar no meu modelo solo usando apenas 3 alavancas: Engenharia da atenção, ofertas obvias e IA.",
+    "preco": 50,
+    "preco_antigo": 497,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Doug Demarco"
+  },
+   {
+    "id": "edicao-video",
+    "categoria": "Criação de Conteúdo / Produtividade",
+    "nome": "O Dobro de Tudo (Black)",
+    "descricao": "Vou te entregar TUDO. Para você nunca mais precisar comprar um curso de marketing digital e desenvolvimento pessoal. Tenha acesso vitalício a todos os cursos que já criei, pelo preço de um",
+    "preco": 200,
+    "preco_antigo": 2997,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Luana Carolina"
   }
 ]
