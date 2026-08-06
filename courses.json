@@ -526,5 +526,170 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Érico Renato"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "E-commerce / Vendas em Marketplaces",
+    "nome": "Destrave e Escale na Shopee",
+    "descricao": "Conheça a estratégia de vendas que vai além do comum e redefine a forma de vender na Shopee. A técnica oculta que fará você vender mais em menos tempo. O segredo para usar o algoritmo e escalar suas vendas, mesmo que você seja um iniciante. O método aperfeiçoado e validado por 10 anos, capaz de transformar sua loja na Shopee em um negócio altamente lucrativo.",
+    "preco": 60,
+    "preco_antigo": 547,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Caue Oliveira"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Marketing",
+    "nome": "Mecanismo$",
+    "descricao": "Como transformar qualquer conhecimento comum em um objeto brilhante (produto) que faz clientes desejarem sua solução antes mesmo de entender como ela funciona. (Sem reinventar sua oferta, sem criar um método complexo e em menos de 45 minutos).",
+    "preco": 50,
+    "preco_antigo": 397,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Doug Demarco"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Gestão de Tráfego / Marketing Digital",
+    "nome": "Comunidade Invictus",
+    "descricao": "A Comunidade Invictus é a formação mais completa do mercado para gestores de tráfego que querem se tornar Estrategistas de Aquisição, profissionais bem pagos, desejados por empresários e preparados para todas as áreas que definem uma carreira de sucesso: estratégia, comercial, retenção, visão de negócio, gestão e mentalidade.",
+    "preco": 70,
+    "preco_antigo": 1497,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Adriano Gianini"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Prospecção / Agência / Venda de Serviços",
+    "nome": "Edu-Led Growth",
+    "descricao": "Escale seu negócio sem depender de prospecção ativa. Domine o playbook usado por agências e empresas de serviço para adquirir clientes com produtos digitais.",
+    "preco": 60,
+    "preco_antigo": 997,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Arthur Dambros"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Vibe Coding",
+    "nome": "Comunidade TOP HAWKS",
+    "descricao": "Seu primeiro sistema de ia no ar em 14 dias. Os próximos, você constrói sozinho. O caminho para abandonar a ia superficial e construir como um profissional. Código, arquitetura e deploy de sistemas de ia, sem depender da sorte.",
+    "preco": 70,
+    "preco_antigo": 2098,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Ronnald Hawk"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Audiovisual / Prospecção",
+    "nome": "Marco Zero",
+    "descricao": "O plano solo para crescer no audiovisual sem contratar ninguém. Descubra o passo a passo completo para profissionalizar e captar clientes mesmo começando do zero.",
+    "preco": 60,
+    "preco_antigo": 580,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Égon Marzullo"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Saúde / Auto Cuidado",
+    "nome": "SOS Mulher",
+    "descricao": "O plano definitivo para você DESINFLAMAR. Ganhe conhecimento e autonomia para transformar seu corpo e sua saúde, de forma simples, prática e segura. Eu estarei junto com você durante todo o processo!",
+    "preco": 80,
+    "preco_antigo": 2097,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Dra.Géssica Andrade (Dra.Gess)"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Marketing Digital / Copy / Anúncios",
+    "nome": "Mentoria Anúncios Milionários",
+    "descricao": "A única formação que ensino como escrever anúncios que vendem R$ 1 milhão por dia. Você vai ter acesso a TUDO que eu fiz para gerar mais de R$ 220 milhões e ficar MULTIMILIONÁRIA só escrevendo anúncios.",
+    "preco": 75,
+    "preco_antigo": 3.997,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Amanda Khayat"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Conteúdo Dark / Redes Sociais",
+    "nome": "Método Instadark 2.0",
+    "descricao": "Você passa horas por dia no Instagram. Chegou a hora de ser pago por isso. É isso que te ensino no InstaDark™. O passo-a-passo pra você criar, viralizar sua Página Dark e sacar dinheiro dela.",
+    "preco": 40,
+    "preco_antigo": 197,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Pedro Noronha"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Desenvolvimento Pessoal / Sedução",
+    "nome": "Método Vilaverde 2.0",
+    "descricao": "Aprenda o método que fará você se relacionar com pelo menos 1 mulher todo final de semana! Sem você precisar ser o homem mais bonito, nem o mais forte e muito menos o mais rico.",
+    "preco": 45,
+    "preco_antigo": 297,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Murilo Vilaverde"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Marketing Digital / Vendas",
+    "nome": "Formação Estrategistas de Marketing",
+    "descricao": "Aprenda o método que fará você se relacionar com pelo menos 1 mulher todo final de semana! Sem você precisar ser o homem mais bonito, nem o mais forte e muito menos o mais rico.",
+    "preco": 100,
+    "preco_antigo": 15000,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Camila Renaux"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Marketing",
+    "nome": "ComfyUI Pro",
+    "descricao": "Domine o COMFYUI de uma vez por todas. Seja para criar imagens e videos com Inteligência Artificial ou para acelerar os trabalhos que você já faz!",
+    "preco": 60,
+    "preco_antigo": 600,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Santinello"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Marketing Digital",
+    "nome": "Caixa de Ideias",
+    "descricao": "Aprenda como criar software sem saber programar. A IA eliminou a barreira técnica. Domine a stack definitiva (Antigravity, Cursor e Claude Code). Construa produtos reais em dias, não meses.",
+    "preco": 60,
+    "preco_antigo": 997,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Márcio Marques"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial / Marketing Digital",
+    "nome": "Laboratório De Influencer De IA",
+    "descricao": "Utilize esse método para lucrar de 500 a 1.000 reais todos os dias com Influenciadoras geradas por Inteligência Artificial.",
+    "preco": 40,
+    "preco_antigo": 197,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Gabriel Morais"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Vibe Coding / Inteligência Artificial / Marketing Digital",
+    "nome": "Roadmap Dev de Oferta",
+    "descricao": "Pare de travar. Você tem a ideia, sabe de marketing, entende de oferta, mas trava na hora de colocar de pé. Esse roadmap ensina o básico de programação que todo dono de oferta digital precisa saber.",
+    "preco": 35,
+    "preco_antigo": 173,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Guilherme Franklin"
   }
 ]
