@@ -1494,5 +1494,16 @@
     "acesso": "Vitalício via Google Drive",
     "imagem": "",
     "autor": "Aline Freitas"
+  },
+  {
+    "id": "edicao-video",
+    "categoria": "Inteligência Artificial",
+    "nome": "Formação IA",
+    "descricao": "17 cursos de Inteligência Artificial para você aprender a monetizar na internet e viralizar! Aprenda do zero a dominar IA e transforme suas ideias em dinheiro, mesmo sem experiência!",
+    "preco": 50,
+    "preco_antigo": 297,
+    "acesso": "Vitalício via Google Drive",
+    "imagem": "",
+    "autor": "Twins Academy"
   }
 ]
